@@ -20,3 +20,4 @@ https://openweathermap.org/
 https://newsapi.org/docs
 
 For synchronising your google calendar with our program, you have to register in their site: https://developers.google.com/calendar/quickstart/python
+After that you will get your own token.pickle and you have to put that in the same directory
