@@ -437,7 +437,7 @@ def virtualAssistant():
                 elif 'news' in text:
                     try:
                         jsonObj = urlopen(
-                            '''http://newsapi.org/v2/top-headlines?country=in&apiKey=b34c76c69a4048dfa815774ae73ce139''')
+                            '''http://newsapi.org/v2/top-headlines?country=in&apiKey=YourAPIKey''')
                         data = json.load(jsonObj)
                         speak('So, here I have few latest news for you across the world')
                         i = 1
@@ -509,7 +509,7 @@ def virtualAssistant():
                     activity(today, initTime, endTime)
 
                 elif "weather" in text:
-                    api_key = "6c7e7e30ff6df9bc6b22fb28c227ff24"
+                    api_key = "Your API key"
                     base_url = "https://api.openweathermap.org/data/2.5/weather?"
                     speak("what is the city name")
                     city_name = take_command()
