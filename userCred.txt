@@ -1,0 +1,8 @@
+Enter Username (in the below blank line):
+Jash Sheth
+Enter User's Email-ID:
+computerassist.jks@gmail.com
+Enter User's Email-password:
+yourpasswordisincorrect
+Enter User's SQL password:
+magnet
