@@ -15,9 +15,14 @@ Development Environment:
 This program is fundamentally written in Python Language and hence, any version of Python 3 (Python 3.6/Python 3.8/Python 3.9 etc.) is necessary for execution of this program.
 Also, MySQL Community Version software is needed for maintaining a database and hence MySQL software is also required for the same.
 
-Note : You have to install some python packages which you can find from requirements.txt, for weather and news you have to create your own API key from;
+Note  
+1) You have to install some python packages which you can find from requirements.txt, for weather and news you have to create your own API key from;
 https://openweathermap.org/
 https://newsapi.org/docs
 
-For synchronising your google calendar with our program, you have to register in their site: https://developers.google.com/calendar/quickstart/python
+2) For synchronising your google calendar with our program, you have to register in their site: https://developers.google.com/calendar/quickstart/python
 After that you will get your own token.pickle and you have to put that in the same directory
+
+3) You have to create a csv file named as innovators.csv for storing your history in graphical form
+
+4) For storing contacts in SQL database you have to create a database named as "contact_book" and create a table "contact_table" which has two columns "name varchar(35), email_id varchar(50)"
